@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="run.ParallelRunner" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-10-07T14:50:12" hostname="KEVIN-CALIMENO" time="3.672">
+  <properties/>
+  <testcase name="[1:6] Obtener lista de usuarios" classname="run.ParallelRunner" time="1.67"/>
+  <testcase name="[2:20] Crear un nuevo usuario" classname="run.ParallelRunner" time="0.471"/>
+  <testcase name="[3:31] Actualizar un usuario existente" classname="run.ParallelRunner" time="0.417"/>
+  <testcase name="[4:41] Eliminar un usuario" classname="run.ParallelRunner" time="1.108"/>
+  <system-out><![CDATA[---------------------------------------------------------
+feature: classpath:features/siigo.feature
+scenarios:  4 | passed:  4 | failed:  0 | time: 2,0549
+---------------------------------------------------------
+
+Karate version: 1.5.0.RC4
+======================================================
+elapsed:   3,74 | threads:    1 | thread time: 2,06 
+features:     1 | skipped:    0 | efficiency: 0,55
+scenarios:    4 | passed:     4 | failed: 0
+======================================================
+
+HTML report: (paste into browser to view) | Karate version: 1.5.0.RC4
+file:///C:/Users/kevin.calimeno_pragm/Desktop/SiigoApis/Siigo/build/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [org.slf4j.simple.SimpleServiceProvider@1acaf3d]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6986852]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [org.slf4j.simple.SimpleServiceProvider@1acaf3d]
+[Test worker] INFO com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+[Test worker] INFO com.intuit.karate - [print] El código de estado es: 200 
+[Test worker] INFO com.intuit.karate - [print] {
+  "name": "John",
+  "job": "developer",
+  "id": "222",
+  "createdAt": "2024-10-07T14:50:15.086Z"
+}
+ 
+[Test worker] INFO com.intuit.karate - [print] El código de estado es: 201 
+[Test worker] INFO com.intuit.karate - [print] {
+  "name": "John",
+  "job": "senior developer",
+  "updatedAt": "2024-10-07T14:50:15.508Z"
+}
+ 
+[Test worker] INFO com.intuit.karate - [print] El código de estado es: 200 
+[Test worker] INFO com.intuit.karate - [print]  
+[Test worker] INFO com.intuit.karate - [print] El código de estado es: 204 
+]]></system-err>
+</testsuite>
